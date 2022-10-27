@@ -20,6 +20,28 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/github-script@v6
+        id: get_round
+        with:
+         result-encoding: string
+         script: |
+           const asso = context.payload.comment.author_association
+           if(asso == 'OWNER' || asso == 'MEMBER') {
+             const body = context.payload.comment.body
+             if(body.includes("build:")) {
+               const re = /\/(force-)?build:(\w+)\s*/;
+               if(re.test(body)){
+                 const res = re.exec(body)
+                 if(body.includes("force-")) {
+                   return res[2]+":yes"
+                 }
+                 else{
+                   return res[2]+":no"
+                 }
+               }
+             }
+           }
+           return 'stop'
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages
@@ -35,7 +57,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
       - name: Post address
         uses: actions/github-script@v6
-        if: ${{ success()}}
+        if: ${{ success() && steps.get_round.outputs.result != 'stop' }}
         with:
           script: |
             const address = "The web-site is built. It will be available, after a few minutes, here: https://saillantnicolas.github.io/cgal-web/"
@@ -47,7 +69,7 @@ jobs:
             });
       - name: Post error
         uses: actions/github-script@v6
-        if: ${{ failure()}}
+        if: ${{ failure() && steps.get_round.outputs.result != 'stop' }}
         with:
           script: |
             const msg = "There was an error while building the web-site"
