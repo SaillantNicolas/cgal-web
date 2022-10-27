@@ -23,7 +23,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Change BASE_PATH
-        run: yq -i '.JB.BASE_PATH = "https://cgal.github.io/cgal-web"' _config.yml
+        run: yq -i '.JB.BASE_PATH = "https://saillantnicolas.github.io/cgal-web"' _config.yml
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
@@ -31,6 +31,17 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+      - name: Post address
+        uses: actions/github-script@v6
+        if: ${{ success() && steps.get_round.outputs.result != 'stop' }}
+        with:
+          script: |
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: ${{ github.event.issue.number }},
+              body: "The documentation is built. It will be available, after a few minutes, here: https://saillantnicolas.github.io/cgal-web/"
+            });
 
   # Deployment job
   deploy:
