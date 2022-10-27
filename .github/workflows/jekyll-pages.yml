@@ -47,7 +47,7 @@ jobs:
           script: |
             const address = "The web-site is built. It will be available, after a few minutes, here: https://saillantnicolas.github.io/cgal-web/"
             github.rest.issues.createComment({
-              issue_number: ${{github.event.issue.number}},
+              issue_number: ${{github.event.number}},
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: address
@@ -61,7 +61,7 @@ jobs:
             github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: ${{github.event.issue.number}},
+              issue_number: ${{github.event.number}},
               body: msg
             });
       
