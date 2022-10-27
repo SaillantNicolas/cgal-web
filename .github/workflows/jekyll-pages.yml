@@ -7,7 +7,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-  pull-requests: write
 
 # Allow one concurrent deployment
 concurrency:
@@ -17,6 +16,8 @@ concurrency:
 jobs:
   # Build job
   build:
+    permissions:
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -37,7 +38,7 @@ jobs:
           script: |
             const address = "The documentation is built. It will be available, after a few minutes, here: https://saillantnicolas.github.io/cgal-web/"
             github.rest.issues.createComment({
-              issue_number: ${{ github.event.issue.number }},
+              issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: address
