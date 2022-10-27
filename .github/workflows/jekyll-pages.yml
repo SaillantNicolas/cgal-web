@@ -37,8 +37,8 @@ jobs:
         with:
           script: |
             github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
+              owner: "SaillantNicolas",
+              repo: "SaillantNicolas/cgal-web",
               issue_number: ${{ github.event.issue.number }},
               body: "The documentation is built. It will be available, after a few minutes, here: https://saillantnicolas.github.io/cgal-web/"
             });
