@@ -7,6 +7,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  pull-requests: write
 
 # Allow one concurrent deployment
 concurrency:
@@ -29,19 +30,21 @@ jobs:
         with:
           source: ./
           destination: ./_site
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
       - name: Post address
         uses: actions/github-script@v6
         if: ${{ success() && steps.get_round.outputs.result != 'stop' }}
         with:
           script: |
+            const address = "The documentation is built. It will be available, after a few minutes, here: https://saillantnicolas.github.io/cgal-web/"
             github.rest.issues.createComment({
               owner: "SaillantNicolas",
               repo: "SaillantNicolas/cgal-web",
               issue_number: ${{ github.event.issue.number }},
-              body: "The documentation is built. It will be available, after a few minutes, here: https://saillantnicolas.github.io/cgal-web/"
+              body: address
             });
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+      
 
   # Deployment job
   deploy:
