@@ -28,7 +28,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Change BASE_PATH
-        run: yq -i '.JB.BASE_PATH = "https://saillantnicolas.github.io/cgal-web"' /cgal-web/cgal-web/_config.yml
+        run: yq -i '.JB.BASE_PATH = "https://saillantnicolas.github.io/cgal-web"' _config.yml
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Build with Jekyll
