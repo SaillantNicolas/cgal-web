@@ -31,20 +31,32 @@ jobs:
         with:
           source: ./
           destination: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
       - name: Post address
         uses: actions/github-script@v6
-        if: ${{ success() && steps.get_round.outputs.result != 'stop' }}
+        if: ${{ success()}}
         with:
           script: |
-            const address = "The documentation is built. It will be available, after a few minutes, here: https://saillantnicolas.github.io/cgal-web/"
+            const address = "The web-site is built. It will be available, after a few minutes, here: https://saillantnicolas.github.io/cgal-web/"
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: address
             });
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Post error
+        uses: actions/github-script@v6
+        if: ${{ failure()}}
+        with:
+          script: |
+            const msg = "There was an error while building the web-site"
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: msg
+            });
       
 
   # Deployment job
