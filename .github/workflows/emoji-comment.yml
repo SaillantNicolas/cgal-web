@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Emoji-comment
         uses: actions/github-script@v6
-        if: contains(github.event.comment.body, '/build:v0')
+        if: contains(github.event.comment.body, '/build:')
         with:
           script: |
             github.rest.issues.createForIssueComment({
