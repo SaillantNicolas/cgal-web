@@ -4,7 +4,7 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 on:
   push:
     branches: master
-  pull_request_target: 
+  pull_request: 
     types: [opened,synchronize]
     
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
