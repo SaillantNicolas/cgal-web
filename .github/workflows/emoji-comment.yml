@@ -17,7 +17,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             github.rest.reactions.createForIssueComment({
-              issue_number: context.issue.number,
+              comment_id: ${{ github.event.comment.id }},
               owner: context.repo.owner,
               repo: context.repo.repo,
               content: 'rocket'
