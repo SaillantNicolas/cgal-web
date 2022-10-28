@@ -4,7 +4,7 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 on:
   push:
     branches: master
-  pull_request: 
+  pull_request_target: 
     types: [opened,synchronize]
     
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -27,6 +27,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          ref: ${{github.event.pull_request.head.ref}}
+          repository: ${{github.event.pull_request.head.repo.full_name}}
       - name: Change BASE_PATH
         run: yq -i '.JB.BASE_PATH = "https://saillantnicolas.github.io/cgal-web"' _config.yml
       - name: Setup Pages
@@ -40,7 +43,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
       - name: Post address
         uses: actions/github-script@v6
-        if: ${{ success() && github.event_name == 'pull_request' }}
+        if: ${{ success() && github.event_name == 'pull_request_target' }}
         with:
           script: |
             github.rest.issues.createComment({
@@ -51,7 +54,7 @@ jobs:
             });
       - name: Post error
         uses: actions/github-script@v6
-        if: ${{ failure() && github.event_name == 'pull_request' }}
+        if: ${{ failure() && github.event_name == 'pull_request_target' }}
         with:
           script: |
             github.rest.issues.createComment({
