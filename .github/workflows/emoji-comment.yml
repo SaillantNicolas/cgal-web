@@ -13,7 +13,7 @@ jobs:
         with:
           script: |
             github.rest.reactions.createForIssueComment({
-              github-token: ${{ secrets.GITHUB_TOKEN }}
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
