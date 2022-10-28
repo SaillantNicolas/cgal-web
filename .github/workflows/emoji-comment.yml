@@ -7,6 +7,24 @@ jobs:
   emoji:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out repo content
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.17.0'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install octokit
+
+      - name: Run script
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node .github/actions-scripts/use-the-api.mjs
+
       - name: Emoji-comment
         uses: actions/github-script@v6
         if: ${{ success() && contains(github.event.comment.body, '/build:') }}
