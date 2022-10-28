@@ -16,7 +16,7 @@ jobs:
               owner: contet.repo.owner,
               repo: context.repo.repo,
               content: 'rocket',
-              comment_id: ${{ github.event.comment.id }}
+              comment_id: ${{ github.event.comment.id }},
             });
       
 
