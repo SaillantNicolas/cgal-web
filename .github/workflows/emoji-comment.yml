@@ -2,14 +2,14 @@ name: emoji-comment
 
 on:
   issue_comment:
-
+    types: [created,edited]
 jobs:
   emoji:
     runs-on: ubuntu-latest
     steps:
       - name: Emoji-comment
         uses: actions/github-script@v6
-        if: contains(github.event.comment.body, '/build:')
+        if: ${{ success() && contains(github.event.comment.body, '/build:') }}
         with:
           script: |
             github.rest.reactions.createForIssueComment({
