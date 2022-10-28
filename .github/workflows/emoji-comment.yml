@@ -12,7 +12,7 @@ jobs:
         if: contains(github.event.comment.body, '/build:')
         with:
           script: |
-            octokit.rest.reactions.createForIssueComment({
+            github.rest.reactions.createForIssueComment({
               owner: contet.repo.owner,
               repo: context.repo.repo,
               comment_id: ${{ github.event.comment.id }},
