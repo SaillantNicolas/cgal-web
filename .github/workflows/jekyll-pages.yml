@@ -43,6 +43,8 @@ jobs:
                artifact_id: matchArtifact.id,
                archive_format: 'zip',
             });
+            var fs = require('fs');
+            fs.writeFileSync('${{github.workspace}}/pr.zip', Buffer.from(download.data));
       - name: 'Download artifact pr number'
         uses: actions/github-script@v6
         with:
