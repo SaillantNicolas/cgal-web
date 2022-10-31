@@ -104,7 +104,6 @@ jobs:
             });
             var fs = require('fs');
             fs.writeFileSync('${{github.workspace}}/github-pages.zip', Buffer.from(download.data));
-      - run: unzip github-pages.zip
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
