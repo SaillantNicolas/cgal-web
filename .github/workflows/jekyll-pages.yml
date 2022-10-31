@@ -84,10 +84,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: Extract_Receive_Pr
     steps:
-      - name: Download a single artifact
+      - name: Download all workflow run artifacts
         uses: actions/download-artifact@v3
-        with:
-          name: github-pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
