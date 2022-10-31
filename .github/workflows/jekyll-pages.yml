@@ -95,7 +95,7 @@ jobs:
               body: "There was an error while building the web-site"
             });
       - name: Deploy
-        uses: action/github-script@v6
+        uses: actions/github-script@v6
         with:
           script: |
             github.rest.repo.createPagesDeployment({
