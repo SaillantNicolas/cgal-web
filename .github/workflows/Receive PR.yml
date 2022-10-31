@@ -4,6 +4,10 @@ name: Receive PR
 # no access to secrets
 on: [push,pull_request]
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+  
 jobs:
   build:
     runs-on: ubuntu-latest
