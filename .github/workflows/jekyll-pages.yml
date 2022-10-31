@@ -103,6 +103,6 @@ jobs:
               repo:context.repo.repo,
               artifact_url: /home/runner/work/cgal-web/cgal-web/github-pages.zip,
               pages_build_version: ${{github.event.workflow_run.id }},
-              oidc_token: ' '
+              oidc_token: ${{ secrets.GITHUB_TOKEN }}
             });
             
