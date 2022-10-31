@@ -2,8 +2,7 @@ name: Receive PR
 
 # read-only repo token
 # no access to secrets
-on:
-  pull_request:
+on: [push,pull_request]
 
 jobs:
   build:
