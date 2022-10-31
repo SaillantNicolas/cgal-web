@@ -51,7 +51,7 @@ jobs:
             var fs = require('fs');
             var issue_number = Number(fs.readFileSync('./NR'));
             github.rest.issues.createComment({
-              owner: contet.repo.owner,
+              owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issue_number,
               body: "There was an error while building the web-site"
