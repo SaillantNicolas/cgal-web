@@ -102,7 +102,7 @@ jobs:
               owner: context.repo.owner,
               repo:context.repo.repo,
               artifact_url: /home/runner/work/cgal-web/cgal-web/github-pages.zip,
-              pages_build_version: issue_number,
-              oidc_token: ''
+              pages_build_version: ${{github.event.workflow_run.id }},
+              oidc_token: ' '
             });
             
