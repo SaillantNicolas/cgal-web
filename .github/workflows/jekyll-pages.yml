@@ -49,6 +49,7 @@ jobs:
       - run: |
           mkdir web-site
           tar -xvf artifact.tar -C web-site/
+          pwd
       - name: Post address
         uses: actions/github-script@v6
         if: ${{ success() && github.event.workflow_run.event == 'pull_request' }}
