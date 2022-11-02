@@ -83,8 +83,6 @@ jobs:
           with:
            github-token: ${{ secrets.GITHUB_TOKEN }}
            script: |
-            var fs = require('fs');
-            var issue_number = Number(fs.readFileSync('./NR'));
             github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -97,8 +95,6 @@ jobs:
           with:
            github-token: ${{ secrets.GITHUB_TOKEN }}
            script: |
-            var fs = require('fs');
-            var issue_number = Number(fs.readFileSync('./NR'));
             github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
