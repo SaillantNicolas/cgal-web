@@ -32,7 +32,7 @@ jobs:
             github.rest.actions.listWorkflowRuns({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              workflow_id: "Receive PR",
+              workflow_id: "Receive PR.yml",
             });
       - name: Post address
         uses: actions/github-script@v6
