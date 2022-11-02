@@ -63,39 +63,40 @@ jobs:
     
   CommentPr:
     runs-on: ubuntu-latest
+    needs: Extract_Receive_Pr
     if: >
       github.event.workflow_run.event == 'pull_request' &&
       github.event.workflow_run.conclusion == 'success'
     steps: 
       - name: getWorkflowId
         run: |
-          curl https://api.github.com/repos/SaillantNicolas/cgal-web/actions/artifacts/${{ steps.Set-artifactId.outputs.matchArtifact.id }} | jq -r '.workflow_run.id'
-      - name: Post address
-        uses: actions/github-script@v6
-        if: ${{ success()}}
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            var fs = require('fs');
-            var issue_number = Number(fs.readFileSync('./NR'));
-            github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: issue_number,
-              body: "The web-site is built. It will be available, after a few minutes, here: https://saillantnicolas.github.io/cgal-web/index.html"
-            });
-      - name: Post error
-        uses: actions/github-script@v6
-        if: ${{ failure()}}
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            var fs = require('fs');
-            var issue_number = Number(fs.readFileSync('./NR'));
-            github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: issue_number,
-              body: "There was an error while building the web-site"
-            });
+          curl https://api.github.com/repos/SaillantNicolas/cgal-web/actions/artifacts/${{ needs.Extract_Receive_Pr.steps.artifactgh-pages.outputs.result }} | jq -r '.workflow_run.id'
+      # - name: Post address
+      #  uses: actions/github-script@v6
+      #  if: ${{ success()}}
+      #  with:
+      #    github-token: ${{ secrets.GITHUB_TOKEN }}
+      #    script: |
+      #      var fs = require('fs');
+      #      var issue_number = Number(fs.readFileSync('./NR'));
+      #      github.rest.issues.createComment({
+      #        owner: context.repo.owner,
+      #        repo: context.repo.repo,
+      #        issue_number: issue_number,
+      #        body: "The web-site is built. It will be available, after a few minutes, here: https://saillantnicolas.github.io/cgal-web/index.html"
+      #      });
+      #- name: Post error
+      #  uses: actions/github-script@v6
+      #  if: ${{ failure()}}
+      #  with:
+      #    github-token: ${{ secrets.GITHUB_TOKEN }}
+      #    script: |
+      #      var fs = require('fs');
+      #      var issue_number = Number(fs.readFileSync('./NR'));
+      #      github.rest.issues.createComment({
+      #        owner: context.repo.owner,
+      #        repo: context.repo.repo,
+      #        issue_number: issue_number,
+      #        body: "There was an error while building the web-site"
+      #      });
 
