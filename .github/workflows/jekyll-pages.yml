@@ -59,6 +59,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: master
           publish_dir: web-site
   CommentPr:
     runs-on: ubuntu-latest
