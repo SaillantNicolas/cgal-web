@@ -70,7 +70,7 @@ jobs:
         - name: getWorkflowId
           id: workflowid
           run: |
-            curl "https://api.github.com/repos/SaillantNicolas/cgal-web/actions/artifacts/${{ steps.test.outputs.result }}" -o artifact.json
+            curl "https://api.github.com/repos/SaillantNicolas/cgal-web/actions/artifacts/${{needs.Extract_Receive_Pr.outputs.artifactid}}" -o artifact.json
             echo "::set-output name=id::$(cat artifact.json | jq -r '.workflow_run.id')"
         - name: getPrId
           id: prid
