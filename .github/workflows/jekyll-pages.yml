@@ -21,6 +21,8 @@ concurrency:
 jobs:
   Extract_Receive_Pr:
     runs-on: ubuntu-latest
+    outputs:
+      artifactid: ${{steps.artifactgh-pages.outputs.result}}
     if: >
       (github.event.workflow_run.event == 'pull_request' || github.event.workflow_run.event == 'push') &&
       github.event.workflow_run.conclusion == 'success'
@@ -67,7 +69,7 @@ jobs:
     steps: 
       - name: getWorkflowId
         run: |
-          curl https://api.github.com/repos/SaillantNicolas/cgal-web/actions/artifacts/${{ steps.artifactgh-pages.outputs.result }} | jq -r '.workflow_run.id'
+          curl https://api.github.com/repos/SaillantNicolas/cgal-web/actions/artifacts/${{ needs.Extract_Receive_Pr.outputs.output1 }} | jq -r '.workflow_run.id'
       # - name: Post address
       #  uses: actions/github-script@v6
       #  if: ${{ success()}}
