@@ -48,6 +48,7 @@ jobs:
       - run: unzip github-pages.zip
       - run: |
           mkdir web-site
+          ls 
           tar -xvf artifact.tar -C /web-site
           ls /web-site
       - name: Post address
