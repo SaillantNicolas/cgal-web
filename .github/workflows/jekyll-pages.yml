@@ -76,7 +76,7 @@ jobs:
           id: prid
           run: |
             curl "https://api.github.com/repos/SaillantNicolas/cgal-web/actions/runs/${{ steps.workflowid.outputs.id }}" -o workflow.json
-            echo "::set-output name=id::$(cat workflow.json | jq -r '.pull_requests[0].id')"
+            echo "::set-output name=id::$(cat workflow.json | jq -r '.pull_requests[0].number')"
         - name: Post address
           uses: actions/github-script@v6
           if: ${{ success()}}
