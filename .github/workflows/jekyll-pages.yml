@@ -48,9 +48,7 @@ jobs:
       - run: unzip github-pages.zip
       - run: |
           mkdir web-site
-          ls 
           tar -xvf artifact.tar -C web-site/
-          ls web-site/
       - name: Post address
         uses: actions/github-script@v6
         if: ${{ success() && github.event.workflow_run.event == 'pull_request' }}
