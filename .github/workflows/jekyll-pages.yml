@@ -46,7 +46,10 @@ jobs:
             var fs = require('fs');
             fs.writeFileSync('${{github.workspace}}/github-pages.zip', Buffer.from(download.data));
       - run: unzip github-pages.zip
-      - run: ls
+      - run: |
+          mkdir web-site
+          tar -xvf artifact.tar -C /web-site
+          ls /web-site
       - name: Post address
         uses: actions/github-script@v6
         if: ${{ success() && github.event_name == 'pull_request' }}
