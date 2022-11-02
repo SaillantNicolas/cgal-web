@@ -21,14 +21,13 @@ concurrency:
 jobs:
   Extract_Receive_Pr:
     runs-on: ubuntu-latest
-    outputs:
-      artifact-id: matchArtifact.id
     if: >
       (github.event.workflow_run.event == 'pull_request' || github.event.workflow_run.event == 'push') &&
       github.event.workflow_run.conclusion == 'success'
     steps:
       - name: 'Download artifact github pages'
         uses: actions/github-script@v6
+        id: artifactgh-pages
         with:
           script: |
             var artifacts = await github.rest.actions.listWorkflowRunArtifacts({
@@ -47,7 +46,6 @@ jobs:
             });
             var fs = require('fs');
             fs.writeFileSync('${{github.workspace}}/github-pages.zip', Buffer.from(download.data));
-      - run: echo "::set-outputs name=artifactid::"matchArtifact.id
       - run: unzip github-pages.zip
       - run: |
           mkdir web-site
@@ -95,4 +93,4 @@ jobs:
     steps: 
       - name: getWorkflowId
         run: |
-          curl https://api.github.com/repos/SaillantNicolas/cgal-web/actions/artifacts/matchArtifact.id | jq -r '.workflow_run.id'
+          curl https://api.github.com/repos/SaillantNicolas/cgal-web/actions/artifacts/${{ steps.artifactgh-pages.outputs.matchArtifact.id }} | jq -r '.workflow_run.id'
