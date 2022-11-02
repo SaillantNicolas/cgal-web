@@ -55,10 +55,11 @@ jobs:
           mkdir web-site
           tar -xvf artifact.tar -C web-site/
           pwd
-      - name: Deploy 
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          folder: web-site
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: web-site
   CommentPr:
     runs-on: ubuntu-latest
     needs: Extract_Receive_Pr
