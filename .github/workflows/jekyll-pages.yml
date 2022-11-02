@@ -49,11 +49,11 @@ jobs:
       - run: |
           mkdir web-site
           ls 
-          tar -xvf artifact.tar -C /web-site
-          ls /web-site
+          tar -xvf artifact.tar -C web-site/
+          ls web-site/
       - name: Post address
         uses: actions/github-script@v6
-        if: ${{ success() && github.event_name == 'pull_request' }}
+        if: ${{ success() && github.event.workflow_run.event == 'pull_request' }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -67,7 +67,7 @@ jobs:
             });
       - name: Post error
         uses: actions/github-script@v6
-        if: ${{ failure() && github.event_name == 'pull_request' }}
+        if: ${{ failure() && github.event.workflow_run.event == 'pull_request' }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -79,3 +79,8 @@ jobs:
               issue_number: issue_number,
               body: "There was an error while building the web-site"
             });
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site-web
