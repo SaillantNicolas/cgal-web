@@ -47,9 +47,6 @@ jobs:
             var fs = require('fs');
             fs.writeFileSync('${{github.workspace}}/github-pages.zip', Buffer.from(download.data));
             return matchArtifact.id
-      - name: Set artifactId
-        id: Set-artifactId
-        run: echo "${{steps.artifactgh-pages.outputs.result}}" >> $GITHUB_OUTPUT
       - run: unzip github-pages.zip
       - run: |
           mkdir web-site
