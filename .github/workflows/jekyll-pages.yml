@@ -36,7 +36,7 @@ jobs:
               workflow_id: "Receive PR.yml",
               per_page: 1
             });
-      - run: echo "${{steps.getworkflow.outputs.workflow_runs.0.workflow_id }}"
+      - run: echo "${{steps.getworkflow.outputs.workflow_runs.[0].workflow_id }}"
       - name: Post address
         uses: actions/github-script@v6
         if: ${{ success() && github.event_name == 'pull_request' }}
