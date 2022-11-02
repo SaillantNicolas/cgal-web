@@ -25,47 +25,14 @@ jobs:
       (github.event.workflow_run.event == 'pull_request' || github.event.workflow_run.event == 'push') &&
       github.event.workflow_run.conclusion == 'success'
     steps:
-      - name: 'Download artifact github pages'
-        uses: actions/github-script@v6
+      - uses: actions/github-script@v6
         with:
           script: |
-            var artifacts = await github.rest.actions.listWorkflowRunArtifacts({
-               owner: context.repo.owner,
-               repo: context.repo.repo,
-               run_id: ${{github.event.workflow_run.id }},
+            github.rest.actions.listWorkflowRuns({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: "Receive PR",
             });
-            var matchArtifact = artifacts.data.artifacts.filter((artifact) => {
-              return artifact.name == "github-pages"
-            })[0];
-            var download = await github.rest.actions.downloadArtifact({
-               owner: context.repo.owner,
-               repo: context.repo.repo,
-               artifact_id: matchArtifact.id,
-               archive_format: 'zip',
-            });
-            var fs = require('fs');
-            fs.writeFileSync('${{github.workspace}}/github-pages.zip', Buffer.from(download.data));
-      - name: 'Download artifact pr number'
-        uses: actions/github-script@v6
-        with:
-          script: |
-            var artifacts = await github.rest.actions.listWorkflowRunArtifacts({
-               owner: context.repo.owner,
-               repo: context.repo.repo,
-               run_id: ${{github.event.workflow_run.id }},
-            });
-            var matchArtifact = artifacts.data.artifacts.filter((artifact) => {
-              return artifact.name == "pr"
-            })[0];
-            var download = await github.rest.actions.downloadArtifact({
-               owner: context.repo.owner,
-               repo: context.repo.repo,
-               artifact_id: matchArtifact.id,
-               archive_format: 'zip',
-            });
-            var fs = require('fs');
-            fs.writeFileSync('${{github.workspace}}/pr.zip', Buffer.from(download.data));
-      - run: unzip pr.zip
       - name: Post address
         uses: actions/github-script@v6
         if: ${{ success() && github.event_name == 'pull_request' }}
@@ -94,15 +61,3 @@ jobs:
               issue_number: issue_number,
               body: "There was an error while building the web-site"
             });
-      - name: Deploy
-        uses: actions/github-script@v6
-        with:
-          script: |
-            github.rest.repo.createPagesDeployment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              artifact_url: /home/runner/work/cgal-web/cgal-web/github-pages.zip,
-              pages_build_version: ${{github.event.workflow_run.id }},
-              oidc_token: ${{ secrets.GITHUB_TOKEN }}
-            });
-            
