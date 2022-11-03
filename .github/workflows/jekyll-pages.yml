@@ -71,12 +71,12 @@ jobs:
           id: workflowid
           run: |
             curl "https://api.github.com/repos/SaillantNicolas/cgal-web/actions/artifacts/${{needs.Extract_Receive_Pr.outputs.artifactid}}" -o artifact.json
-            echo "::set-output name=id::$(cat artifact.json | jq -r '.workflow_run.id')"
+            echo "{id}=$(cat artifact.json | jq -r '.workflow_run.id')" >> $GITHUB_OUTPUT
         - name: getPrId
           id: prid
           run: |
             curl "https://api.github.com/repos/SaillantNicolas/cgal-web/actions/runs/${{ steps.workflowid.outputs.id }}" -o workflow.json
-            echo "::set-output name=id::$(cat workflow.json | jq -r '.pull_requests[0].number')"
+            echo "{id}=$(cat workflow.json | jq -r '.pull_requests[0].number')" >> $GITHUB_OUTPUT
         - name: Post address
           uses: actions/github-script@v6
           if: ${{ success()}}
