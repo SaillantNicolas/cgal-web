@@ -1,4 +1,4 @@
-name: Receive PR
+name: Receive_PR
 
 # read-only repo token
 # no access to secrets
