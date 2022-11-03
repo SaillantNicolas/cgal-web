@@ -5,8 +5,8 @@
         <description>CGAL - CGAL Editorial Board</description>
         <link>http://www.cgal.org</link>
         <link>http://www.cgal.org</link>
-        <lastBuildDate>2022-11-03T07:38:01+00:00</lastBuildDate>
-        <pubDate>2022-11-03T07:38:01+00:00</pubDate>
+        <lastBuildDate>2022-11-03T07:46:49+00:00</lastBuildDate>
+        <pubDate>2022-11-03T07:46:49+00:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -15,14 +15,14 @@
                 <description>
 &lt;div&gt;
 
-  &lt;p&gt;The CGAL Open Source Project is pleased to announce two new releases that were publish last Friday:&lt;/p&gt;
+  &lt;p&gt;The CGAL Open Source Project is pleased to announce two new releases:&lt;/p&gt;
 
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&quot;/2022/10/12/cgal5.4.3&quot;&gt;CGAL-5.4.3&lt;/a&gt; is the third bug-fix release for CGAL-5.4, and&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2022/10/12/cgal551&quot;&gt;CGAL-5.5.1&lt;/a&gt; is the first bug-fix release for CGAL-5.5.&lt;/li&gt;
   &lt;/ul&gt;
 
-  &lt;p&gt;The development of CGAL is still focused on the future CGAL-5.6 (now planned for June 2022), with bug-fixes regularly backported to the branches for CGAL-5.4.x and CGAL-5.5.x.&lt;/p&gt;
+  &lt;p&gt;The development of CGAL is still focused on the future CGAL-5.6 (now planned for June 2023), with bug-fixes regularly backported to the branches for CGAL-5.4.x and CGAL-5.5.x.&lt;/p&gt;
 
 &lt;/div&gt;
 </description>
