@@ -3,7 +3,7 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
   workflow_run:
-    workflows: ["Receive PR"]
+    workflows: ["Receive_PR"]
     types:
       - completed
     
