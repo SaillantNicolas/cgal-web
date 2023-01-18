@@ -5,8 +5,8 @@
         <description>CGAL - CGAL Editorial Board</description>
         <link>http://www.cgal.org</link>
         <link>http://www.cgal.org</link>
-        <lastBuildDate>2022-11-03T11:23:26+00:00</lastBuildDate>
-        <pubDate>2022-11-03T11:23:26+00:00</pubDate>
+        <lastBuildDate>2023-01-18T11:04:57+00:00</lastBuildDate>
+        <pubDate>2023-01-18T11:04:57+00:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -596,7 +596,7 @@ serious doubts that the term &lt;i&gt;Delaunay triangulation&lt;/i&gt; is approp
 It is not clear that Sonia Delaunay was aware of this, but &lt;i&gt;Ignorantia juris non excusat&lt;/i&gt;. And as we now know about it, we have to change -- the pull request is on the way.&lt;/p&gt;
 
 
-&lt;p&gt;&lt;b&gt;This April joke came with a &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/April22/index.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;This April joke came with a &lt;a href=&quot;https://cgal.github.io/cgal-web/April22/index.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/news/2022/04/01/sxsw</link>
@@ -1753,7 +1753,7 @@ we will organize a short interview to hear if you really come across.&lt;/p&gt;
 &lt;p&gt;Concerning the personal information you share with cgal.org, we respect the European GDPR
 Regulations. This may or may not be the case when you register in Clubhouse, once you get chosen.&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;This April joke came with a &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/April21/index.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;This April joke came with a &lt;a href=&quot;https://cgal.github.io/cgal-web/April21/index.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/news/2021/04/01/Clubhouse</link>
                 <guid>http://www.cgal.org/news/2021/04/01/Clubhouse</guid>
@@ -3617,7 +3617,7 @@ with clover will make industrial fertilizers near obsolete.&lt;/p&gt;&lt;/li&gt;
 
 
 &lt;p&gt;&lt;b&gt;We work hard to make all the above a reality - so far it is only an april joke.
-It even came with a &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/April20/index.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+It even came with a &lt;a href=&quot;https://cgal.github.io/cgal-web/April20/index.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 
 &lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
@@ -4763,7 +4763,7 @@ did an incredible job when they turned the prototype of the 3D periodic mesh gen
 &lt;li&gt;&lt;p&gt; &lt;a href=&quot;https://cims.nyu.edu/gcl/papers/2018-StitchMeshing.pdf&quot;&gt;Automatic Knit Model Generation for Adidas&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;p&gt;&lt;b&gt;We work hard to make all the above a reality - so far it is only an april joke.
-It even came with a &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/April2019.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+It even came with a &lt;a href=&quot;https://cgal.github.io/cgal-web/April2019.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 
 &lt;/p&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
@@ -8823,7 +8823,7 @@ will be the base for the next Editorial Board meeting co-located with
                 <description>
 &lt;p&gt;The CGAL Project is a &lt;a href=&quot;https://summerofcode.withgoogle.com/archive/2017/organizations/6565611412914176/&quot;&gt;mentoring organization&lt;/a&gt;
 for &lt;a href=&quot;https://summerofcode.withgoogle.com/archive/2017/projects/&quot;&gt;Google Summer of Code 2017&lt;/a&gt;.
-Have a look at our &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/gsoc/2017.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
+Have a look at our &lt;a href=&quot;https://cgal.github.io/cgal-web/gsoc/2017.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2017/03/06/gsoc-2017-mentoring</link>
                 <guid>http://www.cgal.org/2017/03/06/gsoc-2017-mentoring</guid>
@@ -10817,7 +10817,7 @@ a geometric algorithm with &lt;em&gt;O(n log log n)&lt;/em&gt; amortized runtime
 We identified and contacted some users, who were willing to provide us with 
 images and testimonials.
 We today start our series of &lt;em&gt;User Portraits&lt;/em&gt; 
-with &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/news/2015/04/01/SpaceX/&quot;&gt;SpaceX&lt;/a&gt;. Stay tuned, even if you think
+with &lt;a href=&quot;https://cgal.github.io/cgal-web/news/2015/04/01/SpaceX/&quot;&gt;SpaceX&lt;/a&gt;. Stay tuned, even if you think
 that SpaceX will be hard to beat.&lt;/p&gt;
 &lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
@@ -10932,7 +10932,7 @@ KP 32/16. With the help of the CGAL
 
 
 &lt;p&gt;&lt;b&gt;We work hard to make all the above a reality - so far it is only an april joke.
-It even came with a &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/April2015.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+It even came with a &lt;a href=&quot;https://cgal.github.io/cgal-web/April2015.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 
 &lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
@@ -11691,7 +11691,7 @@ Vancouver Canada, 12-14 July 2014.&lt;/p&gt;
                 <title>CGAL welcomes 7 students for the GSoC 2014</title>
                 <description>
 &lt;p&gt;The CGAL project welcomes 7 &lt;a href=&quot;http://code.google.com/soc/&quot;&gt;GSoC&lt;/a&gt; students.
-Have a look at the &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/gsoc/2014.html&quot;&gt;Accepted Projects&lt;/a&gt; page.&lt;/p&gt;
+Have a look at the &lt;a href=&quot;https://cgal.github.io/cgal-web/gsoc/2014.html&quot;&gt;Accepted Projects&lt;/a&gt; page.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/news/2014/05/24/gsoc-2014</link>
                 <guid>http://www.cgal.org/news/2014/05/24/gsoc-2014</guid>
@@ -11703,7 +11703,7 @@ Have a look at the &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/g
                 <description>
 &lt;p&gt;The CGAL Project is a &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2014/orgs/cgal&quot;&gt;mentoring organization&lt;/a&gt;
 for &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2014&quot;&gt;Google Summer of Code 2014&lt;/a&gt;.
-Have a look at our &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/gsoc/2014.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
+Have a look at our &lt;a href=&quot;https://cgal.github.io/cgal-web/gsoc/2014.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2014/04/12/gsoc-2014-mentoring</link>
                 <guid>http://www.cgal.org/2014/04/12/gsoc-2014-mentoring</guid>
@@ -12675,7 +12675,7 @@ of visibility polygons. CoRR, abs/1403.3905, 2014. 2
                 <description>
 &lt;p&gt;The CGAL Project is a &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2013/orgs/cgal&quot;&gt;mentoring organization&lt;/a&gt;
 for &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2013&quot;&gt;Google Summer of Code 2013&lt;/a&gt;.
-Have a look at our &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/gsoc/2013.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
+Have a look at our &lt;a href=&quot;https://cgal.github.io/cgal-web/gsoc/2013.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
 
 </description>
                 <link>http://www.cgal.org/news/2013/04/12/gsoc-2013</link>
@@ -13250,7 +13250,7 @@ This fix also affects the usage of that class in the package
                 <description>
 &lt;p&gt;The CGAL Project is a &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2012/orgs/cgal&quot;&gt;mentoring organization&lt;/a&gt;
 for &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2012&quot;&gt;Google Summer of Code 2012&lt;/a&gt;.
-Have a look at our &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/gsoc/2012.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
+Have a look at our &lt;a href=&quot;https://cgal.github.io/cgal-web/gsoc/2012.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/news/2012/03/21/gsoc-2012</link>
                 <guid>http://www.cgal.org/news/2012/03/21/gsoc-2012</guid>
@@ -13598,7 +13598,7 @@ thread-safety can be deactivated by defining &lt;code class=&quot;language-plain
         <item>
                 <title>CGAL wins IMR's Meshing Maestro Award</title>
                 <description>
-&lt;p&gt;Jane Tournois, Pierre Alliez, Laurent Rineau, and Mariette Yvinec received the &lt;em&gt;Meshing Maestro Award&lt;/em&gt; at the &lt;a href=&quot;https://imr.sandia.gov/20imr/&quot;&gt;20. International Meshing Roundtable&lt;/a&gt;, for their poster &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/images/MeshingMaestro2011.png&quot;&gt;Meshing with CGAL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Jane Tournois, Pierre Alliez, Laurent Rineau, and Mariette Yvinec received the &lt;em&gt;Meshing Maestro Award&lt;/em&gt; at the &lt;a href=&quot;https://imr.sandia.gov/20imr/&quot;&gt;20. International Meshing Roundtable&lt;/a&gt;, for their poster &lt;a href=&quot;https://cgal.github.io/cgal-web/images/MeshingMaestro2011.png&quot;&gt;Meshing with CGAL&lt;/a&gt;.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2011/11/01/meshing-maestro-award</link>
                 <guid>http://www.cgal.org/2011/11/01/meshing-maestro-award</guid>
@@ -13923,7 +13923,7 @@ for arrangement of Bezier curves.&lt;/li&gt;
         <item>
                 <title>New Homepage</title>
                 <description>
-&lt;p&gt;On the &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/April11/FirstOfApril.html&quot;&gt;new homepage&lt;/a&gt;, the CGAL Project agressively uses &lt;em&gt;Web 3.14&lt;/em&gt; technology.&lt;/p&gt;
+&lt;p&gt;On the &lt;a href=&quot;https://cgal.github.io/cgal-web/April11/FirstOfApril.html&quot;&gt;new homepage&lt;/a&gt;, the CGAL Project agressively uses &lt;em&gt;Web 3.14&lt;/em&gt; technology.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2011/04/01/new-homepage</link>
                 <guid>http://www.cgal.org/2011/04/01/new-homepage</guid>
@@ -13935,7 +13935,7 @@ for arrangement of Bezier curves.&lt;/li&gt;
                 <description>
 &lt;p&gt;The CGAL Project is a &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2011/orgs/cgal&quot;&gt;mentoring organization&lt;/a&gt;
 for &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2011&quot;&gt;Google Summer of Code 2011&lt;/a&gt;.
-Have a look at our &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/gsoc/2011.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
+Have a look at our &lt;a href=&quot;https://cgal.github.io/cgal-web/gsoc/2011.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/news/2011/03/31/gsoc-2011</link>
                 <guid>http://www.cgal.org/news/2011/03/31/gsoc-2011</guid>
@@ -14537,7 +14537,7 @@ instantiated with one of these traits.&lt;/li&gt;
                 <description>
 &lt;p&gt;The CGAL Project is a &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2010/orgs/cgal&quot;&gt;mentoring organization&lt;/a&gt;
 for &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2010&quot;&gt;Google Summer of Code 2010&lt;/a&gt;.
-Have a look at our &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/gsoc/2010.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
+Have a look at our &lt;a href=&quot;https://cgal.github.io/cgal-web/gsoc/2010.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/news/2010/03/31/gsoc-2010</link>
                 <guid>http://www.cgal.org/news/2010/03/31/gsoc-2010</guid>
@@ -15632,7 +15632,7 @@ arrangements of conics, for example, when defining an arc with 5 points.&lt;/li&
         <item>
                 <title>CGAL User Workshop</title>
                 <description>
-&lt;p&gt;The &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/Events/UserWorkshop/2008/index.html&quot;&gt;3rd CGAL User Workshop&lt;/a&gt; will be held on March 17, 2008, immediately before the European Workshop on Computational Geometry in Nancy, France.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://cgal.github.io/cgal-web/Events/UserWorkshop/2008/index.html&quot;&gt;3rd CGAL User Workshop&lt;/a&gt; will be held on March 17, 2008, immediately before the European Workshop on Computational Geometry in Nancy, France.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2008/03/01/cgal-user-workshop</link>
                 <guid>http://www.cgal.org/2008/03/01/cgal-user-workshop</guid>
@@ -16317,7 +16317,7 @@ rewritten.&lt;/li&gt;
         <item>
                 <title>Project Rules</title>
                 <description>
-&lt;p&gt;&lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/project_rules.html&quot;&gt;CGAL Open Source Project Rules and Procedures&lt;/a&gt; published to help users and developers to understand the decision processes behind CGAL and how one can get involved.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cgal.github.io/cgal-web/project_rules.html&quot;&gt;CGAL Open Source Project Rules and Procedures&lt;/a&gt; published to help users and developers to understand the decision processes behind CGAL and how one can get involved.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2005/10/01/project-rules</link>
                 <guid>http://www.cgal.org/2005/10/01/project-rules</guid>
@@ -16747,7 +16747,7 @@ this should speed up some kinds of computations.&lt;/li&gt;
         <item>
                 <title>2nd CGAL User Workshop</title>
                 <description>
-&lt;p&gt;The second &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/Events/UserWorkshop/2004/index.html&quot;&gt;CGAL User Workshop&lt;/a&gt; will be held on 12 June 2004, immediately after the &lt;a href=&quot;http://socg.poly.edu/home.htm&quot;&gt; 20th Annual ACM Symposium on Computational Geometry&lt;/a&gt; in New York, USA.&lt;/p&gt;
+&lt;p&gt;The second &lt;a href=&quot;https://cgal.github.io/cgal-web/Events/UserWorkshop/2004/index.html&quot;&gt;CGAL User Workshop&lt;/a&gt; will be held on 12 June 2004, immediately after the &lt;a href=&quot;http://socg.poly.edu/home.htm&quot;&gt; 20th Annual ACM Symposium on Computational Geometry&lt;/a&gt; in New York, USA.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2004/02/01/2nd-cgal-user-workshop</link>
                 <guid>http://www.cgal.org/2004/02/01/2nd-cgal-user-workshop</guid>
@@ -17345,7 +17345,7 @@ traits does not compile for either of the above packages.&lt;/li&gt;
         <item>
                 <title>1st CGAL User Workshop</title>
                 <description>
-&lt;p&gt;The program for the &lt;a href=&quot;https://saillantnicolas.github.io/cgal-web/Events/UserWorkshop/2002/index.html&quot;&gt;1st CGAL User Workshop&lt;/a&gt; is now available.&lt;/p&gt;
+&lt;p&gt;The program for the &lt;a href=&quot;https://cgal.github.io/cgal-web/Events/UserWorkshop/2002/index.html&quot;&gt;1st CGAL User Workshop&lt;/a&gt; is now available.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2002/03/01/1st-cgal-user-workshop</link>
                 <guid>http://www.cgal.org/2002/03/01/1st-cgal-user-workshop</guid>
