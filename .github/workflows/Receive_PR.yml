@@ -26,5 +26,12 @@ jobs:
         with:
           source: ./
           destination: ./_site
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: install ssh keys
+        run: |
+          install -m 600 -D /dev/null ~/.ssh/id_rsa
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} > ~/.ssh/known_hosts
+      - name: rsync
+        run: rsync -avz ./testrsync.html ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USER }}/public_html
+      - name: cleanup
+        run: rm -rf ~/.ssh
