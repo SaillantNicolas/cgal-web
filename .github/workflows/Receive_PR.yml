@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Change BASE_PATH
-        run: yq -i '.JB.BASE_PATH = "https://${{ vars.SSH_HOST }}/~${{ vars.SSH_USER }}/cgal-web"' _config.yml
+        run: yq -i '.JB.BASE_PATH = "${{ vars.CGAL_WEB_SITE_URL }}"' _config.yml
       - name: Remove demo/ (temporarily)
         run: rm -rf demo/
       - name: Build with Jekyll
