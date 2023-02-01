@@ -1,7 +1,5 @@
 name: Receive_PR
 
-# read-only repo token
-# no access to secrets
 on: [pull_request,workflow_dispatch]
 
 concurrency:
@@ -21,10 +19,19 @@ jobs:
         run: rm -rf demo/
       - name: Setup Pages
         uses: actions/configure-pages@v2
+      - name: Create PR number file
+        run: |
+          echo "PR number: ${{ env.GITHUB_EVENT_NUMBER }}" > pr_number.txt
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
-      - name: Upload artifact
+      - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v1
+      - name: Upload PR number file
+        uses: actions/upload-artifact@v2
+        with:
+          name: pr_number
+          path: pr_number.txt
+
