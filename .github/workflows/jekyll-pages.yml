@@ -54,7 +54,7 @@ jobs:
       - run: unzip github-pages.zip
       - run: |
           mkdir web-site
-          tar -xvf artifact.tar -C web-site/
+          tar -xvf github-pages.tar -C web-site/
           pwd
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
