@@ -4,13 +4,41 @@
  <title>CGAL</title>
  <link href="http://www.cgal.org/" rel="self"/>
  <link href="http://www.cgal.org"/>
- <updated>2023-07-17T07:26:03+00:00</updated>
+ <updated>2023-07-17T07:39:58+00:00</updated>
  <id>http://www.cgal.org</id>
  <author>
    <name>CGAL Editorial Board</name>
    <email>cgal-info@inria.fr</email>
  </author>
 
+ 
+ <entry>
+   <title>SoCG Test of Time Award</title>
+   <link href="http://www.cgal.org/news/2023/04/07/SoCG-Test-of-Time-Award"/>
+   <updated>2023-04-07T00:00:00+00:00</updated>
+   <id>http://www.cgal.org/news/2023/04/07/SoCG-Test-of-Time-Award</id>
+   <content type="html">
+&lt;p&gt;We are grateful and proud to share the following news with you.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Dear CGAL Editorial Board,&lt;/p&gt;
+&lt;p&gt; The SoCG ToT Award Committee  has chosen the CGAL project as one of the recipients of the &lt;a href=&quot;https://computational-geometry.org/Awards/SoCG_Test_of_Time.html&quot;&gt;2023 SoCG Test of Time Award&lt;/a&gt;.  In this case the Committee deliberately and exceptionally overstepped its mandate of honoring individual papers since it strongly believes that CGAL is a contribution to the SoCG Community whose impact as a whole has been and still is at least as strong and profound as that of any individual paper. The award will be presented at the 2023 CG Week to be held  June 12-15, 2023 at UT Dallas.&lt;/p&gt;
+
+
+&lt;p&gt;Congratulations to all of you for this well deserved recognition.&lt;/p&gt;
+
+ &lt;p&gt;&lt;small&gt;Pankaj Agarwal, Siu-Wing Cheng,  Raimund Seidel,  Emo Welzl (SoCG ToT Award Committee)&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Update on June 19: The Award Ceremony is now &lt;a href=&quot;https://youtu.be/vqhX-HzWYBw?t=11118&quot;&gt;online&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;a href=&quot;../../../../../images/SoCG_2023_ToT_CGAL.pdf&quot;&gt;&lt;img src=&quot;../../../../../images/SoCG_2023_ToT_CGAL.png&quot; style=&quot;max-width:95%&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+  &lt;br /&gt;&lt;small&gt;Certificate (click for the pdf).&lt;/small&gt;
+&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>CGAL to participate in the Google Summer of Code 2023</title>
