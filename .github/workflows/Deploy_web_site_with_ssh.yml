@@ -19,7 +19,15 @@ jobs:
       - name: setup nodejs
         run: npm install
       - name: Build with Jekyll
-        run:  jekyll build --destination ./_site
+        run: |
+          sudo apt-get update && sudo apt-get install -y ruby-full build-essential zlib1g-dev
+          gem install jekyll bundler
+          echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+          echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+          echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+          source ~/.bashrc
+          bundle install
+          jekyll build --destination ./_site
       - name: install ssh keys
         run: |
           install -m 600 -D /dev/null ~/.ssh/id_rsa
