@@ -22,6 +22,7 @@ jobs:
           gem install jekyll bundler
       - name: Update Configuration
         run: |
+          yq -i '.JB.BASE_PATH = ""' _config.yml
           yq -i '.baseurl = "${{ vars.CGAL_WEB_SITE_URL }}"' _config.yml
       - run: cat _config.yml
       - name: Remove demo/ (temporarily)
