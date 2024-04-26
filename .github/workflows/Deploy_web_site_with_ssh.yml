@@ -21,7 +21,7 @@ jobs:
         run: |
           gem install jekyll bundler
       - name: Change BASE_PATH
-        run: yq -i '.JB.BASE_PATH = ""' _config.yml
+        run: yq -i '.JB.BASE_PATH = "${{ vars.CGAL_WEB_SITE_URL }}"' _config.yml
       - name: Remove demo/ (temporarily)
         run: rm -rf demo/
       - name: setup nodejs
