@@ -22,8 +22,7 @@ jobs:
           gem install jekyll bundler
       - name: Update Configuration
         run: |
-          yq -i '.JB.BASE_PATH = "${{ vars.CGAL_WEB_SITE_URL }}"' _config.yml
-          yq -i '.JB.ASSET_PATH = "${{ vars.CGAL_WEB_SITE_URL }}/assets"' _config.yml
+          yq -i '.JB.BASE_PATH = ""' _config.yml
           yq -i '.baseurl = "${{ vars.CGAL_WEB_SITE_URL }}"' _config.yml
       - run: cat _config.yml
       - name: Remove demo/ (temporarily)
@@ -31,7 +30,7 @@ jobs:
       - name: setup nodejs
         run: npm install
       - name: Build with jekyll
-        run: jekyll build --config _config.yml --destination ./_site 
+        run: jekyll build --destination ./_site 
       - name: install ssh keys
         run: |
           install -m 600 -D /dev/null ~/.ssh/id_rsa
