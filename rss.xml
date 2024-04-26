@@ -5,8 +5,8 @@
         <description>CGAL - CGAL Editorial Board</description>
         <link>http://www.cgal.org</link>
         <link>http://www.cgal.org</link>
-        <lastBuildDate>2024-04-26T11:49:18+00:00</lastBuildDate>
-        <pubDate>2024-04-26T11:49:18+00:00</pubDate>
+        <lastBuildDate>2024-04-26T12:06:45+00:00</lastBuildDate>
+        <pubDate>2024-04-26T12:06:45+00:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -57,7 +57,7 @@ but by a portrait photograph. We are grateful to the Inria Research Center in So
 which offers a physical wall in the Gilles Kahn Auditorium for hosting the CGAL Editorial Board Gallery.
 
 
-&lt;p&gt;&lt;b&gt;This April joke came with a &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/April24/index.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;This April joke came with a &lt;a href=&quot;/April24/index.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/news/2024/04/01/Bourbaki/</link>
@@ -68,10 +68,10 @@ which offers a physical wall in the Gilles Kahn Auditorium for hosting the CGAL 
         <item>
                 <title>CGAL 5.6.1 released</title>
                 <description>
-&lt;p&gt;&lt;i class=&quot;glyphicon glyphicon-download&quot;&gt;&lt;/i&gt;
+&lt;p&gt;&lt;i class=&quot;bi bi-arrow-down-circle&quot;&gt;&lt;/i&gt;
 &lt;a href=&quot;https://github.com/CGAL/cgal/releases/tag/v5.6.1&quot;&gt;Download CGAL-5.6.1&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;i class=&quot;glyphicon glyphicon-book&quot;&gt;&lt;/i&gt;
+&lt;p&gt;&lt;i class=&quot;bi bi-book&quot;&gt;&lt;/i&gt;
 &lt;a href=&quot;https://doc.cgal.org/5.6.1/Manual/index.html&quot;&gt;CGAL-5.6.1 documentation&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;CGAL 5.6.1 is a bug-fix release for &lt;a href=&quot;../../../../2023/07/28/cgal56&quot;&gt;CGAL 5.6&lt;/a&gt;.
@@ -86,10 +86,10 @@ can be accessed &lt;a href=&quot;https://github.com/CGAL/cgal/issues?q=label%3AM
         <item>
                 <title>CGAL 5.5.4 released</title>
                 <description>
-&lt;p&gt;&lt;i class=&quot;glyphicon glyphicon-download&quot;&gt;&lt;/i&gt;
+&lt;p&gt;&lt;i class=&quot;bi bi-arrow-down-circle&quot;&gt;&lt;/i&gt;
 &lt;a href=&quot;https://github.com/CGAL/cgal/releases/tag/v5.5.4&quot;&gt;Download CGAL-5.5.4&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;i class=&quot;glyphicon glyphicon-book&quot;&gt;&lt;/i&gt;
+&lt;p&gt;&lt;i class=&quot;bi bi-book&quot;&gt;&lt;/i&gt;
 &lt;a href=&quot;https://doc.cgal.org/5.5.4/Manual/index.html&quot;&gt;CGAL-5.5.4 documentation&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;CGAL 5.5.4 is a bug-fix release for &lt;a href=&quot;../../../../2022/07/15/cgal55&quot;&gt;CGAL 5.5&lt;/a&gt;.
@@ -186,10 +186,10 @@ to the wrapping algorithms have resulted in a 2x speed-up of the code since CGAL
 &lt;a href=&quot;https://github.com/CGAL/cgal/&quot;&gt;CGAL GitHub repository&lt;/a&gt;, and will be officially released
 in the upcoming version of CGAL, CGAL 6.0, scheduled for June 2024.&lt;/p&gt;
 
-&lt;p&gt;&lt;i class=&quot;glyphicon glyphicon-book&quot;&gt;&lt;/i&gt;
+&lt;p&gt;&lt;i class=&quot;bi bi-book&quot;&gt;&lt;/i&gt;
 &lt;a href=&quot;https://doc.cgal.org/latest/Manual/packages.html#PkgAlphaWrap3&quot;&gt;Documentation of the package Alpha_wrap_3&lt;/a&gt;
 &lt;br /&gt;
-&lt;i class=&quot;glyphicon glyphicon-download&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;bi bi-arrow-down-circle&quot;&gt;&lt;/i&gt;
 &lt;a href=&quot;https://github.com/CGAL/cgal/tree/master&quot;&gt;CGAL master branch on GitHub&lt;/a&gt;&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2023/12/17/alpha_wrapping_improvements/</link>
@@ -263,19 +263,20 @@ and using the &lt;em&gt;Interpolated Corrected Curvature Measures&lt;/em&gt; fun
 &lt;a href=&quot;https://github.com/CGAL/cgal/&quot;&gt;CGAL GitHub repository&lt;/a&gt;, and will be officially released
 in the upcoming version of CGAL, CGAL 6.0, scheduled for mid 2024.&lt;/p&gt;
 
-&lt;i class=&quot;glyphicon glyphicon-book&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;bi bi-book&quot;&gt;&lt;/i&gt;
 &lt;a href=&quot;https://doc.cgal.org/5.6/Manual/packages.html#PkgPolygonMeshProcessing&quot;&gt;Documentation of the package Polygon Mesh Processing&lt;/a&gt;
 &lt;br /&gt;
 
-&lt;i class=&quot;glyphicon glyphicon-book&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;bi bi-book&quot;&gt;&lt;/i&gt;
 &lt;a href=&quot;https://cgal.geometryfactory.com/CGAL/doc/master/Polygon_mesh_processing/index.html#title59&quot;&gt;Documentation section of the master branch about &lt;code&gt;interpolated_corrected_curvatures()&lt;/code&gt;&lt;/a&gt;
 &lt;br /&gt;
 
-&lt;i class=&quot;glyphicon glyphicon-book&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;bi bi-book&quot;&gt;&lt;/i&gt;
 &lt;a href=&quot;https://cgal.geometryfactory.com/CGAL/doc/master/Polygon_mesh_processing/index.html#title8&quot;&gt;Documentation section of the master branch about &lt;code&gt;isotropic_remeshing()&lt;/code&gt;&lt;/a&gt;
 &lt;br /&gt;
 
-&lt;i class=&quot;glyphicon glyphicon-download&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;bi bi-arrow-down-circle&quot;&gt;&lt;/i&gt;
+
 &lt;a href=&quot;https://github.com/CGAL/cgal/tree/master&quot;&gt;CGAL master branch on GitHub&lt;/a&gt;
 &lt;/p&gt;
 </description>
@@ -1569,7 +1570,7 @@ serious doubts that the term &lt;i&gt;Delaunay triangulation&lt;/i&gt; is approp
 It is not clear that Sonia Delaunay was aware of this, but &lt;i&gt;Ignorantia juris non excusat&lt;/i&gt;. And as we now know about it, we have to change -- the pull request is on the way.&lt;/p&gt;
 
 
-&lt;p&gt;&lt;b&gt;This April joke came with a &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/April22/index.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;This April joke came with a &lt;a href=&quot;/April22/index.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/news/2022/04/01/sxsw/</link>
@@ -2726,7 +2727,7 @@ we will organize a short interview to hear if you really come across.&lt;/p&gt;
 &lt;p&gt;Concerning the personal information you share with cgal.org, we respect the European GDPR
 Regulations. This may or may not be the case when you register in Clubhouse, once you get chosen.&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;This April joke came with a &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/April21/index.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;This April joke came with a &lt;a href=&quot;/April21/index.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/news/2021/04/01/Clubhouse/</link>
                 <guid>http://www.cgal.org/news/2021/04/01/Clubhouse</guid>
@@ -4590,7 +4591,7 @@ with clover will make industrial fertilizers near obsolete.&lt;/p&gt;&lt;/li&gt;
 
 
 &lt;p&gt;&lt;b&gt;We work hard to make all the above a reality - so far it is only an april joke.
-It even came with a &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/April20/index.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+It even came with a &lt;a href=&quot;/April20/index.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 
 &lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
@@ -5736,7 +5737,7 @@ did an incredible job when they turned the prototype of the 3D periodic mesh gen
 &lt;li&gt;&lt;p&gt; &lt;a href=&quot;https://cims.nyu.edu/gcl/papers/2018-StitchMeshing.pdf&quot;&gt;Automatic Knit Model Generation for Adidas&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;p&gt;&lt;b&gt;We work hard to make all the above a reality - so far it is only an april joke.
-It even came with a &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/April2019.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+It even came with a &lt;a href=&quot;/April2019.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 
 &lt;/p&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
@@ -9796,7 +9797,7 @@ will be the base for the next Editorial Board meeting co-located with
                 <description>
 &lt;p&gt;The CGAL Project is a &lt;a href=&quot;https://summerofcode.withgoogle.com/archive/2017/organizations/6565611412914176/&quot;&gt;mentoring organization&lt;/a&gt;
 for &lt;a href=&quot;https://summerofcode.withgoogle.com/archive/2017/projects/&quot;&gt;Google Summer of Code 2017&lt;/a&gt;.
-Have a look at our &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/gsoc/2017.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
+Have a look at our &lt;a href=&quot;/gsoc/2017.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2017/03/06/gsoc-2017-mentoring/</link>
                 <guid>http://www.cgal.org/2017/03/06/gsoc-2017-mentoring</guid>
@@ -11790,7 +11791,7 @@ a geometric algorithm with &lt;em&gt;O(n log log n)&lt;/em&gt; amortized runtime
 We identified and contacted some users, who were willing to provide us with 
 images and testimonials.
 We today start our series of &lt;em&gt;User Portraits&lt;/em&gt; 
-with &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/news/2015/04/01/SpaceX/&quot;&gt;SpaceX&lt;/a&gt;. Stay tuned, even if you think
+with &lt;a href=&quot;/news/2015/04/01/SpaceX/&quot;&gt;SpaceX&lt;/a&gt;. Stay tuned, even if you think
 that SpaceX will be hard to beat.&lt;/p&gt;
 &lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
@@ -11905,7 +11906,7 @@ KP 32/16. With the help of the CGAL
 
 
 &lt;p&gt;&lt;b&gt;We work hard to make all the above a reality - so far it is only an april joke.
-It even came with a &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/April2015.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+It even came with a &lt;a href=&quot;/April2015.html&quot;&gt;gallery.&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 
 &lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
@@ -12664,7 +12665,7 @@ Vancouver Canada, 12-14 July 2014.&lt;/p&gt;
                 <title>CGAL welcomes 7 students for the GSoC 2014</title>
                 <description>
 &lt;p&gt;The CGAL project welcomes 7 &lt;a href=&quot;https://code.google.com/soc/&quot;&gt;GSoC&lt;/a&gt; students.
-Have a look at the &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/gsoc/2014.html&quot;&gt;Accepted Projects&lt;/a&gt; page.&lt;/p&gt;
+Have a look at the &lt;a href=&quot;/gsoc/2014.html&quot;&gt;Accepted Projects&lt;/a&gt; page.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/news/2014/05/24/gsoc-2014/</link>
                 <guid>http://www.cgal.org/news/2014/05/24/gsoc-2014</guid>
@@ -12676,7 +12677,7 @@ Have a look at the &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/
                 <description>
 &lt;p&gt;The CGAL Project is a &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2014/orgs/cgal&quot;&gt;mentoring organization&lt;/a&gt;
 for &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2014&quot;&gt;Google Summer of Code 2014&lt;/a&gt;.
-Have a look at our &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/gsoc/2014.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
+Have a look at our &lt;a href=&quot;/gsoc/2014.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2014/04/12/gsoc-2014-mentoring/</link>
                 <guid>http://www.cgal.org/2014/04/12/gsoc-2014-mentoring</guid>
@@ -13648,7 +13649,7 @@ of visibility polygons. CoRR, abs/1403.3905, 2014. 2
                 <description>
 &lt;p&gt;The CGAL Project is a &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2013/orgs/cgal&quot;&gt;mentoring organization&lt;/a&gt;
 for &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2013&quot;&gt;Google Summer of Code 2013&lt;/a&gt;.
-Have a look at our &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/gsoc/2013.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
+Have a look at our &lt;a href=&quot;/gsoc/2013.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
 
 </description>
                 <link>http://www.cgal.org/news/2013/04/12/gsoc-2013/</link>
@@ -14223,7 +14224,7 @@ This fix also affects the usage of that class in the package
                 <description>
 &lt;p&gt;The CGAL Project is a &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2012/orgs/cgal&quot;&gt;mentoring organization&lt;/a&gt;
 for &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2012&quot;&gt;Google Summer of Code 2012&lt;/a&gt;.
-Have a look at our &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/gsoc/2012.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
+Have a look at our &lt;a href=&quot;/gsoc/2012.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/news/2012/03/21/gsoc-2012/</link>
                 <guid>http://www.cgal.org/news/2012/03/21/gsoc-2012</guid>
@@ -14571,7 +14572,7 @@ thread-safety can be deactivated by defining &lt;code&gt;CGAL_HAS_NO_THREADS&lt;
         <item>
                 <title>CGAL wins IMR's Meshing Maestro Award</title>
                 <description>
-&lt;p&gt;Jane Tournois, Pierre Alliez, Laurent Rineau, and Mariette Yvinec received the &lt;em&gt;Meshing Maestro Award&lt;/em&gt; at the &lt;a href=&quot;https://imr.sandia.gov/20imr/&quot;&gt;20. International Meshing Roundtable&lt;/a&gt;, for their poster &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/images/MeshingMaestro2011.png&quot;&gt;Meshing with CGAL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Jane Tournois, Pierre Alliez, Laurent Rineau, and Mariette Yvinec received the &lt;em&gt;Meshing Maestro Award&lt;/em&gt; at the &lt;a href=&quot;https://imr.sandia.gov/20imr/&quot;&gt;20. International Meshing Roundtable&lt;/a&gt;, for their poster &lt;a href=&quot;/images/MeshingMaestro2011.png&quot;&gt;Meshing with CGAL&lt;/a&gt;.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2011/11/01/meshing-maestro-award/</link>
                 <guid>http://www.cgal.org/2011/11/01/meshing-maestro-award</guid>
@@ -14896,7 +14897,7 @@ for arrangement of Bezier curves.&lt;/li&gt;
         <item>
                 <title>New Homepage</title>
                 <description>
-&lt;p&gt;On the &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/April11/FirstOfApril.html&quot;&gt;new homepage&lt;/a&gt;, the CGAL Project agressively uses &lt;em&gt;Web 3.14&lt;/em&gt; technology.&lt;/p&gt;
+&lt;p&gt;On the &lt;a href=&quot;/April11/FirstOfApril.html&quot;&gt;new homepage&lt;/a&gt;, the CGAL Project agressively uses &lt;em&gt;Web 3.14&lt;/em&gt; technology.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2011/04/01/new-homepage/</link>
                 <guid>http://www.cgal.org/2011/04/01/new-homepage</guid>
@@ -14908,7 +14909,7 @@ for arrangement of Bezier curves.&lt;/li&gt;
                 <description>
 &lt;p&gt;The CGAL Project is a &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2011/orgs/cgal&quot;&gt;mentoring organization&lt;/a&gt;
 for &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2011&quot;&gt;Google Summer of Code 2011&lt;/a&gt;.
-Have a look at our &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/gsoc/2011.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
+Have a look at our &lt;a href=&quot;/gsoc/2011.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/news/2011/03/31/gsoc-2011/</link>
                 <guid>http://www.cgal.org/news/2011/03/31/gsoc-2011</guid>
@@ -15510,7 +15511,7 @@ instantiated with one of these traits.&lt;/li&gt;
                 <description>
 &lt;p&gt;The CGAL Project is a &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2010/orgs/cgal&quot;&gt;mentoring organization&lt;/a&gt;
 for &lt;a href=&quot;https://www.google-melange.com/archive/gsoc/2010&quot;&gt;Google Summer of Code 2010&lt;/a&gt;.
-Have a look at our &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/gsoc/2010.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
+Have a look at our &lt;a href=&quot;/gsoc/2010.html&quot;&gt;Project Ideas&lt;/a&gt; page.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/news/2010/03/31/gsoc-2010/</link>
                 <guid>http://www.cgal.org/news/2010/03/31/gsoc-2010</guid>
@@ -16129,6 +16130,111 @@ Plugins for CGAL main 2D algorithm are provided as demo.&lt;/li&gt;
         </item>
 
         <item>
+                <title>GhostNet</title>
+                <description>
+&lt;p&gt;
+Dear CGAL users,
+&lt;/p&gt;
+
+&lt;p&gt;
+it seems that the &lt;a href=&quot;http://en.wikipedia.org/wiki/Ghostnet&quot;&gt;GhostNet spying operation&lt;/a&gt;,
+discovered  by the  Munk Center for International Studies at the University of Toronto,
+mainly infiltrated machines through the trojan horses of Open Source Software
+projects.
+&lt;/p&gt;
+
+&lt;p&gt;
+Our organization (DST) downloaded and analyzed several software packages,
+where French research labs like INRIA are implied, and we discovered that
+among several other projects the CGAL project was chosen as a vector of infection,
+probably due to its worldwide users.
+&lt;/p&gt;
+
+&lt;p&gt;
+The file &lt;code&gt;CGAL/basic.h&lt;/code&gt;  contains some &quot;invisible&quot; code, which, when compiled, every
+time an application  that includes the header file is executed, sends sensible
+information about the environment of the running application via UDP broadcasts
+(in order not to reveal a fixed destination IP address).
+&lt;/p&gt;
+
+&lt;p&gt;
+Malgre the source code distribution, not even the developers were aware of it
+(Last night we interrogated several developers at Inria and GeometryFactory). The
+reason is simple: CGAL/basic.h is not just plain ascii but encoded in UTF-EBDIC,
+which makes that the subtext is not displayed in development environnements
+like emacs, vim, DeveloperStudio ou Eclipse. In fact, we discovered it when
+we loaded the header file in the text editor of DerriereLaLune, the French fork
+of Eclipse.
+&lt;/p&gt;
+
+&lt;p&gt;
+We _urge_ you to replace &lt;code&gt;CGAL-3.4/include/CGAL/basic.h&lt;/code&gt; with the clean
+version below in order to avoid further problems with GhostNet.
+&lt;/p&gt;
+
+&lt;p&gt;
+Cordialement,
+&lt;br /&gt;
+Maurice Oustache
+&lt;br /&gt;
+&lt;a href=&quot;http://www.linkedin.com/in/mauriceoustache&quot;&gt;LinkedIn&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+```
+// Copyright (c) 1999  Utrecht University (The Netherlands),
+// ETH Zurich (Switzerland), Freie Universitaet Berlin (Germany),
+// INRIA Sophia-Antipolis (France), Martin-Luther-University Halle-Wittenberg
+// (Germany), Max-Planck-Institute Saarbruecken (Germany), RISC Linz (Austria),
+// and Tel-Aviv University (Israel).  All rights reserved.
+//
+// This file is part of CGAL (www.cgal.org); you can redistribute it and/or
+// modify it under the terms of the GNU Lesser General Public License as
+// published by the Free Software Foundation; version 2.1 of the License.
+// See the file LICENSE.LGPL distributed with CGAL.
+//
+// Licensees holding a valid commercial license may use this file in
+// accordance with the commercial license agreement provided with the software.
+//
+// This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
+// WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+//
+// $URL: svn+ssh://scm.gforge.inria.fr/svn/cgal/trunk/Kernel_23/include/CGAL/basic.h $
+// $Id: basic.h 28567 2006-02-16 14:30:13Z lsaboret $
+// 
+//
+// Author(s)     : Andreas Fabri
+//                 
+ 
+#ifndef CGAL_BASIC_H
+#define CGAL_BASIC_H
+
+#include &amp;lt;CGAL/config.h&amp;gt;
+
+#include &lt;iostream&gt;
+#include &lt;cstdlib&gt;
+
+#include &amp;lt;CGAL/assertions.h&amp;gt;
+#error &quot;April 1st joke bug&quot;
+#include &amp;lt;CGAL/tags.h&amp;gt;
+#include &amp;lt;CGAL/number_type_basic.h&amp;gt;
+#include &amp;lt;CGAL/IO/io.h&amp;gt;
+#include &amp;lt;CGAL/kernel_basic.h&amp;gt;
+
+
+#endif // CGAL_BASIC_H
+```
+
+&amp;lt;/p&amp;gt;
+&lt;/cstdlib&gt;&lt;/iostream&gt;&lt;/p&gt;
+</description>
+                <link>http://www.cgal.org/news/2009/04/01/GhostNet/</link>
+                <guid>http://www.cgal.org/news/2009/04/01/GhostNet</guid>
+                <pubDate>2009-04-01T00:00:00+00:00</pubDate>
+        </item>
+
+        <item>
                 <title>MATLAB uses CGAL triangulations</title>
                 <description>
 &lt;p&gt;The new Matlab 2009a now uses CGAL triangulations. Watch the &lt;a href=&quot;https://www.mathworks.com/videos/new-mathematics-features-in-r2009a-69010.html&quot;&gt;video&lt;/a&gt;!&lt;/p&gt;
@@ -16593,6 +16699,70 @@ arrangements of conics, for example, when defining an arc with 5 points.&lt;/li&
         </item>
 
         <item>
+                <title>CGAL and the Higgs Boson</title>
+                <description>
+&lt;p&gt;
+Geneva, April 1st, 2008
+&lt;/p&gt;
+
+&lt;h3&gt;
+The Large Hadron Collider Together With the CGAL Periodic Triangulations
+Prove the Existence of the Higgs Boson
+&lt;/h3&gt;
+
+&lt;p&gt;
+The Higgs boson was a hypothetical massive scalar elementary particle
+predicted to exist by the Standard Model of particle physics.
+Until yesterday, the Higgs Boson was the only Standard Model particle
+not yet observed. The proof of its existence is crucial to explain how
+otherwise massless elementary particles still manage to construct mass
+in matter.
+&lt;/p&gt;
+
+&lt;p&gt;
+What turned hypothetical existence in reality is the combination
+of 
+(i) the photon collisions observed in the recently inaugurated &lt;a href=&quot; http://en.wikipedia.org/wiki/Large_Hadron_Collide&quot;&gt;Large Hadron
+Collider (LHC)&lt;/a&gt; together with 
+(ii) the Periodic Triangulation package of CGAL, which allows
+to compute Delaunay triangulations of toroidal spaces in order to apply
+finite difference simulations without dealing with artificial boundary
+conditions.
+&lt;/p&gt;
+
+&lt;p&gt;
+&quot;We knew that hardware alone, buried in a circular tunnel under the Alps,
+and combined with a 128K triple-core processor grid, simply wouldn&apos;t do
+the job,&quot;, 
+said Irene Eneri, the LHC project leader, &quot;What it additionaly
+needed were cleverly designed algorithms for complex shapes, and what we got
+from the folks of the CGAL project was beyond the keenest expectations
+of everybody -- even of the project officer of our EU funded Hicks project.&quot;
+&lt;/p&gt;
+
+&lt;p&gt;
+The downside of this breakthrough result is that the PhD student who worked
+on the periodic triangulations stopped working, telling everybody, that whatever
+he still finds out during his career is irelevant, as he expects to get the
+Fields Medal in about 9, and the  Nobel Prize for Physics in about 32 years.
+&lt;/p&gt;
+
+&lt;p&gt;
+Champagne !!!! (Higgs)
+&lt;/p&gt;
+
+&lt;p&gt;
+The directors,
+&lt;br /&gt;
+Robert Aymar (CERN), Andreas Fabri (GeometryFactory), Sylvain Pion (cgal.org)
+&lt;/p&gt;
+</description>
+                <link>http://www.cgal.org/news/2008/04/01/Higgs/</link>
+                <guid>http://www.cgal.org/news/2008/04/01/Higgs</guid>
+                <pubDate>2008-04-01T00:00:00+00:00</pubDate>
+        </item>
+
+        <item>
                 <title>CGAL @ Google Tech Talk Series</title>
                 <description>
 &lt;p&gt;Sylvain Pion and Andreas Fabri presented CGAL in the &lt;a href=&quot;http://www.youtube.com/watch?v=3DLfkWWw_Tg&quot;&gt;Google TechTalk Series&lt;/a&gt;.&lt;/p&gt;
@@ -16605,7 +16775,7 @@ arrangements of conics, for example, when defining an arc with 5 points.&lt;/li&
         <item>
                 <title>CGAL User Workshop</title>
                 <description>
-&lt;p&gt;The &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/Events/UserWorkshop/2008/index.html&quot;&gt;3rd CGAL User Workshop&lt;/a&gt; will be held on March 17, 2008, immediately before the European Workshop on Computational Geometry in Nancy, France.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;/Events/UserWorkshop/2008/index.html&quot;&gt;3rd CGAL User Workshop&lt;/a&gt; will be held on March 17, 2008, immediately before the European Workshop on Computational Geometry in Nancy, France.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2008/03/01/cgal-user-workshop/</link>
                 <guid>http://www.cgal.org/2008/03/01/cgal-user-workshop</guid>
@@ -17290,7 +17460,7 @@ rewritten.&lt;/li&gt;
         <item>
                 <title>Project Rules</title>
                 <description>
-&lt;p&gt;&lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/project_rules.html&quot;&gt;CGAL Open Source Project Rules and Procedures&lt;/a&gt; published to help users and developers to understand the decision processes behind CGAL and how one can get involved.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/project_rules.html&quot;&gt;CGAL Open Source Project Rules and Procedures&lt;/a&gt; published to help users and developers to understand the decision processes behind CGAL and how one can get involved.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2005/10/01/project-rules/</link>
                 <guid>http://www.cgal.org/2005/10/01/project-rules</guid>
@@ -17720,7 +17890,7 @@ this should speed up some kinds of computations.&lt;/li&gt;
         <item>
                 <title>2nd CGAL User Workshop</title>
                 <description>
-&lt;p&gt;The second &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/Events/UserWorkshop/2004/index.html&quot;&gt;CGAL User Workshop&lt;/a&gt; will be held on 12 June 2004, immediately after the &lt;a href=&quot;http://socg.poly.edu/home.htm&quot;&gt; 20th Annual ACM Symposium on Computational Geometry&lt;/a&gt; in New York, USA.&lt;/p&gt;
+&lt;p&gt;The second &lt;a href=&quot;/Events/UserWorkshop/2004/index.html&quot;&gt;CGAL User Workshop&lt;/a&gt; will be held on 12 June 2004, immediately after the &lt;a href=&quot;http://socg.poly.edu/home.htm&quot;&gt; 20th Annual ACM Symposium on Computational Geometry&lt;/a&gt; in New York, USA.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2004/02/01/2nd-cgal-user-workshop/</link>
                 <guid>http://www.cgal.org/2004/02/01/2nd-cgal-user-workshop</guid>
@@ -18318,7 +18488,7 @@ traits does not compile for either of the above packages.&lt;/li&gt;
         <item>
                 <title>1st CGAL User Workshop</title>
                 <description>
-&lt;p&gt;The program for the &lt;a href=&quot;https://cgal.geometryfactory.com/~nsaillant/testweb/Events/UserWorkshop/2002/index.html&quot;&gt;1st CGAL User Workshop&lt;/a&gt; is now available.&lt;/p&gt;
+&lt;p&gt;The program for the &lt;a href=&quot;/Events/UserWorkshop/2002/index.html&quot;&gt;1st CGAL User Workshop&lt;/a&gt; is now available.&lt;/p&gt;
 </description>
                 <link>http://www.cgal.org/2002/03/01/1st-cgal-user-workshop/</link>
                 <guid>http://www.cgal.org/2002/03/01/1st-cgal-user-workshop</guid>
