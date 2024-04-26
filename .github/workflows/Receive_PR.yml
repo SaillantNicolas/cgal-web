@@ -3,32 +3,42 @@ name: Receive_PR
 # read-only repo token
 # no access to secrets
 on: [push,pull_request,workflow_dispatch]
-
+  
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
+    steps:   
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Change BASE_PATH
-        run: yq -i '.JB.BASE_PATH = "https://cgal.github.io/cgal-web"' _config.yml
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+          bundler-cache: true
+      - name: Setup Jekyll
+        run: |
+          gem install jekyll bundler
+      - name: Update Configuration
+        run: |
+          yq -i '.JB.BASE_PATH = ""' _config.yml
+          yq -i '.baseurl = "${{ vars.CGAL_WEB_SITE_URL }}"' _config.yml
+          yq -i '.JB.ASSET_PATH = "${{ vars.CGAL_WEB_SITE_URL }}/assets/themes/cgal/"' _config.yml
       - name: Remove demo/ (temporarily)
         run: rm -rf demo/
       - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
+        uses: actions/configure-pages@v2
+      - name: setup nodejs
+        run: npm install
+      - name: Build with jekyll
+        run: jekyll build --destination ./_site
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v1
       - name: Create PR number file
         run: |
           echo "${{ github.event.number }}" > pr_number.txt
       - name: Upload PR number file
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
           name: pr_number
           path: pr_number.txt
