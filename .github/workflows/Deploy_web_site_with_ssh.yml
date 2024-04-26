@@ -23,6 +23,7 @@ jobs:
       - name: Update Configuration
         run: |
           yq -i '.JB.BASE_PATH = "${{ vars.CGAL_WEB_SITE_URL }}"' _config.yml
+          yq -i '.JB.ASSET_PATH = "${{ vars.CGAL_WEB_SITE_URL }}/assets"' _config.yml
           yq -i '.baseurl = "${{ vars.CGAL_WEB_SITE_URL }}"' _config.yml
       - run: cat _config.yml
       - name: Remove demo/ (temporarily)
