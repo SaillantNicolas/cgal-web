@@ -27,7 +27,7 @@ jobs:
       - name: setup nodejs
         run: npm install
       - name: Build with jekyll
-        run: jekyll build --destination ./_site 
+        run: jekyll build --config _config.yml --destination ./_site 
       - name: install ssh keys
         run: |
           install -m 600 -D /dev/null ~/.ssh/id_rsa
